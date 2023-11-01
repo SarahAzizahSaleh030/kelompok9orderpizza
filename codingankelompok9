@@ -1,0 +1,29 @@
+# Order Pizza Hut
+
+print("Welcome to Python's Pizza!!")
+# Jenis Menu Pizza
+print("Jenis Menu Pizza           Harga")
+print("1. Frankfurter BBQ        :43.637")
+print("2. Meat Monsta            :43.637")
+print("3. Super Supreme          :43.637")
+print("4. Super Supreme Chicken  :43.637")
+print("5. Meat Lovers            :43.637")
+print("6. Chicken Lovers         :43.637")
+print("7. Cheese Lovers          :43.637")
+print("8. American Favourite     :43.637")
+#Input
+jenis_pizza = input("Jenis pizza apa yang kamu inginkan? : "). lower()
+
+# Crust Pizza
+print("Crust Pizza                      Harga")
+print("1. Pan                          : Free")
+print("2. StuffedCrust Cheese          : 11.818")
+print("3. StuffedCrust Sausage         : 9.091")
+print("4. Cheesy Bites                 : 13.636")
+print("5. Crown Crust                  : 11.818")
+crust_pizza = input("Crust pizza apa yang kamu inginkan? : "). lower()
+
+# Ukuran Pizza
+print("Ukuran Pizza      Harga")
+print("1. Personal      : Free")
+print("2. Reguler       : 57.273")
