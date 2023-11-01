@@ -27,3 +27,32 @@ crust_pizza = input("Crust pizza apa yang kamu inginkan? : "). lower()
 print("Ukuran Pizza      Harga")
 print("1. Personal      : Free")
 print("2. Reguler       : 57.273")
+print("3. Large         : 89.091")
+ukuran_pizza = input("Ukuran pizza apa yang kamu inginkan? : "). lower()
+
+tambah_keju =(input("Tambah 13.636 untuk Extra Keju (yes/no): ")). lower() == "y"
+
+# Harga pizza
+if jenis_pizza == "frankfurter bbq":
+    harga_pizza = 43637
+elif jenis_pizza == "meat monsta":
+    harga_pizza = 43637
+elif jenis_pizza == "super supreme":
+    harga_pizza = 43637
+elif jenis_pizza == "super supreme chicken":
+    harga_pizza = 43637
+elif jenis_pizza == "meat lovers":
+    harga_pizza = 43637
+elif jenis_pizza == "chicken lovers":
+    harga_pizza = 43637
+elif jenis_pizza == "cheese lovers":
+    harga_pizza = 43637
+elif jenis_pizza == "american favourite":
+    harga_pizza = 43637
+else:
+    print("Jenis pizza tidak valid.")
+    exit()
+# Harga crust
+if crust_pizza == "pan":
+    harga_crust = 0
+elif crust_pizza == "stuffedcrust cheese":
